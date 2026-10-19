@@ -1,0 +1,18 @@
+# PaySim datasets and generated transaction-level exports
+/data/raw/*.csv
+/data/processed/*.csv
+/outputs/*.csv
+
+# Python temporary files and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Credentials, local environment and temporary artifacts
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
